@@ -138,9 +138,11 @@ Close and re-open terminal to make changes effective.
 
 For running applications launched through Chrome OS launcher menu:
 
-> mkdir mkdir ~/.config/environment.d
+> mkdir ~/.config/environment.d
 
-> nano ~/.config/environment.d/im.config
+> nano ~/.config/environment.d/im.conf
+
+Ref: https://www.freedesktop.org/software/systemd/man/latest/environment.d.html
 
 Write and save the following lines:
 
